@@ -1,0 +1,7 @@
+[project]
+name = "linux-kit"
+version = "0.0.1"
+description = "A Python package for Linux system management and automation."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["questionary", "shutil", "os", "time", "subprocess", "alive_progress", "rich", "rich.console", "rich.traceback", "sys", "ctypes", "re", "shlex"]
